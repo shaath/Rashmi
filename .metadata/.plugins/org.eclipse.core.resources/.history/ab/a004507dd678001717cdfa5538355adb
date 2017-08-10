@@ -1,0 +1,13 @@
+import org.junit.BeforeClass;
+
+
+public class JunitMaster
+{
+	public static webdriver driver;
+	@BeforeClass
+	public static void launch()
+	{
+		
+	}
+
+}

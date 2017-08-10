@@ -1,0 +1,21 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import day4.webdriverwaitEg;
+
+public class LoginTC 
+{
+	@Test
+	public void login()
+	{
+		WebDriver driver=new FirefoxDriver();
+		
+		LoginPage lp=PageFactory.initElements(driver, LoginPage.class);
+		driver.get();
+	}
+
+}

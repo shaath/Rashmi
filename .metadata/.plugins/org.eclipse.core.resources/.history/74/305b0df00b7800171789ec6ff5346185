@@ -1,0 +1,15 @@
+package driverScripts;
+
+import java.io.FileInputStream;
+
+public class Keyword {
+
+	public static void main(String[] args) 
+	{
+		String xlpath="F:\\Morning1030AM_Rashmi_vinay\\SeleniumProject\\src\\testData\\Keyword.xlsx";
+		FileInputStream fp=new FileInputStream(xlpath);
+		
+
+	}
+
+}

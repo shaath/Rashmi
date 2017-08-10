@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid" duration-ms="33840" started-at="2017-08-08T06:02:36Z" finished-at="2017-08-08T06:03:10Z">
+    <groups>
+    </groups>
+    <test name="On Chrome" duration-ms="27468" started-at="2017-08-08T06:02:36Z" finished-at="2017-08-08T06:03:04Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@457e2f02]" name="grid" duration-ms="27406" started-at="2017-08-08T11:32:36Z" finished-at="2017-08-08T11:33:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On Chrome -->
+    <test name="On firefox" duration-ms="33840" started-at="2017-08-08T06:02:36Z" finished-at="2017-08-08T06:03:10Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@36d4b5c]" name="grid" duration-ms="33777" started-at="2017-08-08T11:32:36Z" finished-at="2017-08-08T11:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- On firefox -->
+  </suite> <!-- Grid -->
+</testng-results>

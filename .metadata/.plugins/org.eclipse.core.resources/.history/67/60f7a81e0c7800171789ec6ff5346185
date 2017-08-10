@@ -1,0 +1,24 @@
+package driverScripts;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Keyword {
+
+	public static void main(String[] args) throws IOException 
+	{
+		String xlpath="F:\\Morning1030AM_Rashmi_vinay\\SeleniumProject\\src\\testData\\Keyword.xlsx";
+		FileInputStream fi=new FileInputStream(xlpath);
+		
+		XSSFWorkbook wb=new XSSFWorkbook(fi);
+		XSSFSheet ws=wb.getSheet("Testcase");
+		XSSFSheet ws1=wb.getSheet("Teststeps");
+		
+		
+	}
+
+}

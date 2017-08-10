@@ -1,0 +1,15 @@
+package testNG;
+
+import java.sql.Driver;
+
+import org.testng.annotations.Test;
+
+public class EmpregTest extends TestNGMaster
+{
+	@Test
+	public void org_Empreg()
+	{
+		driver.
+	}
+
+}
